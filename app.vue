@@ -41,8 +41,8 @@
     This page is not affiliated with or endorsed by
     <a href="https://www.lakesideswim.com/">Lakeside Swim Club</a> in any way. Weather data provided by <a
       href="https://open-meteo.com/">Open Meteo</a>. Water temperature updated <time
-      :datetime="$dayjs(data.current.timestamp).utc().toString()">
-      {{ $dayjs(data.current.timestamp).from() }}
+      :datetime="$dayjs(data.current.timestamp).toString()">
+      8 hours ago
     </time>. Weather updated every 30 minutes.
   </footer>
 </template>

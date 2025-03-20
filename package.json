@@ -17,6 +17,6 @@
     "weather-icons": "github:erikflowers/weather-icons"
   },
   "devDependencies": {
-    "dayjs-nuxt": "^2.1.9"
+    "dayjs-nuxt": "^2.1.11"
   }
 }
