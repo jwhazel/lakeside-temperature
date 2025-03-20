@@ -30,20 +30,17 @@
     <section class="container mx-auto py-3">
       <div>
         <h2 class="font-bold">Historical</h2>
-        <div class="py-20 bg-slate-400 text-white text-center">
-          chart goes here
-        </div>
+        <LineChart />
       </div>
     </section>
   </main>
 
-  <footer class="container mx-auto italic text-sm">
+  <footer class="container mx-auto italic text-sm pb-5">
     This page is not affiliated with or endorsed by
     <a href="https://www.lakesideswim.com/">Lakeside Swim Club</a> in any way. Weather data provided by <a
       href="https://open-meteo.com/">Open Meteo</a>. Water temperature updated <time
       :datetime="$dayjs(data.current.timestamp).toString()">
-      8 hours ago
-    </time>. Weather updated every 30 minutes.
+      8 hours ago</time>. Weather updated every 30 minutes.
   </footer>
 </template>
 

@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "@nuxtjs/tailwindcss": "^6.13.2",
+    "@unovis/ts": "^1.5.1",
+    "@unovis/vue": "^1.5.1",
     "nuxt": "^3.16.1",
     "vue": "^3.4.27",
     "vue-router": "^4.3.2",

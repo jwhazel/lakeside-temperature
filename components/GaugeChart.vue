@@ -34,19 +34,9 @@ const chartValue = computed(() => {
     return 180;
   }
   else {
-    //50=0
-    //75=90
-    //100=180
-    //180/(max-min) = scale
-    // amount-min * scale
     const scale = 180 / (props.max - props.min)
     return (props.amount - props.min) * scale
   }
 })
 
-/*
-<!-- percent to deg => Math.round(((value / 100) * 180 - 45) * 10) / 10 -->
-*/
-
-//absolute top-0 aspect-square w-full rotate-[calc(12deg-45deg)] bg-gradient-to-tr from-transparent from-50% to-gray-300 to-50% transition-transform duration-500
 </script>

@@ -2,10 +2,10 @@ export default defineEventHandler(async (event) => {
   return {
     current: {
       timestamp: "2024-05-28T13:25:43.511Z",
-      lake: 77,
-      pool: 82,
+      lake: 76,
+      pool: 80,
       ambient: {
-        temperature: 68,
+        temperature: 86,
         icon: "sunny",
       },
     },
